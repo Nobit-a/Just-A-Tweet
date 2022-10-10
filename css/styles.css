@@ -1,0 +1,176 @@
+body{
+    background-color: #f4f4f4;
+}
+
+.container{
+    background-color: white;
+    color: black;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+
+    width: 50%;
+    margin: auto;
+    margin-top: 10%;
+    position: relative;
+}
+
+/* Navbar  */
+
+.nav-bar{
+    padding: 30px;
+    padding-top: 30px;
+}
+
+.nav-bar img{
+    float: left;
+    width: 6%;
+    margin-right: 15px;
+    margin-top: 10px;
+    /* position: absolute;
+    top: 20px; */
+}
+
+.nav-bar h3{
+    margin: 0;
+
+}
+
+.nav-bar small{
+    color: gray;
+}
+
+.settings{
+    float: right;
+    background-image: url('../images/settings.png');
+    /* background-size: cover; */
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin: 10px;
+    margin-top: -18px;
+}
+
+
+.following{
+    float: right;
+    background-color: rgb(70, 194, 244);
+    padding: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 0.1px rgb(56, 175, 222) solid;
+    border-radius: 8%;
+    color: white;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.following:hover{
+    background-color: rgb(24, 145, 193);
+    border: 0.1px rgb(10, 107, 146) solid;
+    cursor: pointer;
+
+}
+
+/* Content  */
+
+.content{
+    padding: 30px;
+    padding-top: 0;
+    margin-top: -20px;
+}
+
+.content a{
+    text-decoration: none;
+    color: rgb(10, 107, 146);
+}
+
+.content a img{
+    background-size: contain;
+    opacity: 0.4;
+    filter: alpha(opacity=40); 
+    width: 17px;
+    height: 17px;
+    border: none;
+    margin-right: 40px;
+    
+}
+
+/* Retweets */
+
+.retweets-left{
+    float: left;
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 0;
+    border-top: lightgray solid 0.1px;
+    border-bottom: lightgray solid 0.1px;
+    border-right: lightgray solid 0.1px;
+    box-sizing: border-box;
+
+
+}
+
+
+.retweets-left small{
+    color: gray;
+    font-size: 10px;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.retweets-left p{
+    margin: 0;
+    padding: 0;
+    margin-right: 45px;
+    color: rgb(10, 107, 146);
+}
+
+.p-left{
+    display: inline-block;
+
+}
+
+.p-right{
+    display: inline-block;
+}
+
+.retweets-right{
+    float: right;
+    width: 65%;
+    margin-right: 45px;
+    margin-top: 0;
+    border-top: lightgray solid 0.1px;
+    border-bottom: lightgray solid 0.1px;
+    box-sizing: border-box;
+
+}
+
+
+.retweets-right a img{
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 15px 0 6px 0;
+    border-radius: 15%;
+    
+}
+
+.retweets-right a:first-child{
+    margin-left: 10px;
+}
+
+/* Date  */
+
+.date{
+    padding: 10px;
+}
+
+.date small{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 12px;
+    color: gray;
+}
